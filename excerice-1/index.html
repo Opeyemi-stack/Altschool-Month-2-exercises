@@ -4,7 +4,74 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exercise 1</title>
-    <style></style>
+    <style>
+      @font-face {
+        font-family: "Satoshi";
+        src: url("../fonts/Satoshi-Black.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: #0e0e0e;
+        font-family: "Satoshi", sans-serif;
+        color: #202020;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .container {
+        width: 800px;
+        height: 450px;
+        max-width: 80%;
+        background-color: #202020;
+        position: relative;
+      }
+
+      .container::before {
+        content: " ";
+        display: block;
+        height: 10px;
+        width: 100%;
+        background-color: #fff;
+        margin: 0;
+        position: absolute;
+        bottom: 1px;
+      }
+
+      .card {
+        background-color: #fff;
+        width: 400px;
+        padding: 100px 30px 30px;
+        border-radius: 10px 10px;
+        margin-top: 100px;
+        margin: 100px;
+        box-sizing: border-box;
+      }
+
+      .card__title {
+        background-color: #ff008a;
+        color: #000;
+        font-weight: 700;
+        border-radius: 5px;
+        box-sizing: border-box;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: -120px;
+      }
+
+      .card__description {
+        padding-top: 20px;
+        line-height: 1.5;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
