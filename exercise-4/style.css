@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f7fdfc;
+  padding: 24px 24px 40px 24px;
+}
+
+.header__container {
+  padding: 5px 0;
+}
+
+.header__logo {
+  width: 5rem;
+  height: 5rem;
+}
+
+.main__title {
+  padding: 20px 0;
+  font-size: 1.875rem;
+  letter-spacing: -0.05rem;
+}
+
+.main__description {
+  color: #737373;
+  line-height: 25px;
+  font-size: 1rem;
+  vertical-align: middle;
+}
+
+.form {
+  background-color: #ffffff;
+  padding: 30px 15px;
+  border-radius: 6px;
+  box-shadow: 0 4px 50px 0 #0408131a;
+  margin-top: 30px;
+}
+
+.form__label {
+  margin-bottom: 20px;
+  color: #011c34;
+  font-weight: 600;
+}
+
+.form__label,
+.form__input {
+  display: block;
+  color: #011c34;
+}
+
+.form__input--placeholder::placeholder {
+  color: #011c34;
+  font-weight: 400;
+}
+
+.form__input,
+select,
+.form__button {
+  width: 100%;
+}
+
+.form__input,
+select {
+  margin-top: 5px;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #f0f0f0;
+  outline: none;
+}
+
+.password__container {
+  position: relative;
+}
+
+.password__show-icon {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+}
+
+.form__button {
+  background-color: #2ec4b6;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  padding: 16px 0;
+  color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 10px 40px 0 #0000001a;
+}
+
+.form__terms {
+  margin: 30px 24px;
+}
+
+.form__terms-link {
+  color: #2ec4b6;
+}
+
+.form__terms-description {
+  text-align: center;
+}
