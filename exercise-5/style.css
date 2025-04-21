@@ -276,6 +276,8 @@ body {
 .payment__input-flex {
   display: flex;
   margin-top: 5px;
+  border: 1px solid #edeff2;
+  border-radius: 6px;
 }
 
 .payment__input {
