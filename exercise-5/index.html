@@ -33,5 +33,145 @@
         </ul>
       </nav>
     </header>
+    <main class="main">
+      <div class="subscription">
+        <div class="plan">
+          <h2 class="plan__title">Freelancer</h2>
+          <p class="plan__pricing">
+            <span class="plan__pricing-sub">$</span>
+            <span class="plan__pricing-value">99</span>
+            <span class="plan__pricing-year">/ year</span>
+          </p>
+          <p class="plan__automation">
+            <em
+              >Automatically renews<br />
+              after 1 year</em
+            >
+          </p>
+        </div>
+        <div class="details">
+          <ul class="details__list">
+            <li class="details__list-item">Use on 5 client sites</li>
+            <li class="details__list-item">Private repositories</li>
+            <li class="details__list-item">Email support</li>
+          </ul>
+        </div>
+        <div class="switch">
+          <h3 class="switch__title">Need <strong>20</strong> client sites?</h3>
+          <p class="switch__description">
+            <a href="#" class="switch__link">
+              Switch to the <i>Agency</i> plan<span style="font-weight: 400"
+                >.</span
+              >
+            </a>
+          </p>
+        </div>
+        <hr class="hr" />
+        <div class="quote">
+          <p class="quote__content">
+            <blockquote class="blockquote--italic">FTP is horrible to deal with. <strong>WP Pusher</strong> solves that
+            issue, and the customer support is awesome!</blockquote>
+          </p>
+          <div class="quote__user-info">
+            <img
+              class="quote__thumbnail"
+              src="assets/images/Bitmap.png"
+              alt="Kirk Beard"
+            />
+            <p class="quote__username">Kirk Beard</p>
+          </div>
+        </div>
+      </div>
+      <div class="checkout">
+        <h2 class="checkout__title">Checkout</h2>
+        <form class="form">
+          <div class="checkout__basic">
+            <h3 class="checkout__basic-title">
+              <span class="section-number">1</span>Your Basic Information
+            </h3>
+            <div class="label__flex">
+              <label class="checkout__basic-label" for="first-name"
+                >First Name
+                <input
+                  class="checkout__basic-input"
+                  id="first-name"
+                  type="text"
+                  placeholder="Jane"
+                />
+              </label>
+              <label class="checkout__basic-label" for="last-name"
+                >Last Name
+                <input
+                  class="checkout__basic-input"
+                  id="last-name"
+                  type="text"
+                  placeholder="Doe"
+                />
+              </label>
+            </div>
+            <label class="checkout__basic-label email-label--width" for="email"
+              >Email
+              <input
+                class="checkout__basic-input"
+                id="email"
+                type="email"
+                placeholder="janedoe@example.com"
+              />
+            </label>
+          </div>
+          <div class="payment">
+            <h3 class="payment__title">
+              <span class="section-number">2</span>
+              Your Payment Information
+            </h3>
+            <div>
+              <label class="payment__label" for="credit-card">
+                Credit Card
+                <div class="payment__input-flex">
+                  <input
+                    class="payment__input payment__input-card-number"
+                    id="credit-card"
+                    type="text"
+                    placeholder="Card Number"
+                  />
+                  <input
+                    class="payment__input payment__input-card-expiry"
+                    type="text"
+                    placeholder="MM/YY"
+                  />
+                  <input
+                    class="payment__input payment__input-cvc"
+                    type="text"
+                    placeholder="CVC"
+                  />
+                </div>
+              </label>
+            </div>
+          </div>
+          <div class="purchase">
+            <button type="button" class="button">Buy WP Pusher</button>
+            <p class="purchase__support">
+              <img src="/assets/images/Mask.png" class="icon-mask" />
+              <span
+                ><strong>Need any help? &nbsp </strong> Don’t hesitate to
+                <a class="purchase__support-link" href="#"
+                  >contact <br />
+                  support!</a
+                ></span
+              >
+            </p>
+            <img
+              class="payment__service-provider"
+              src="/assets/images/powered_by_stripe.png"
+              alt="Powered by Stripe"
+            />
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">&copy 2018 WP Pusher IVS .
+      <span class="terms-of-service"><a class="footer__link" href="#">Terms of Service</a></span> </p>
+    </footer>
   </body>
 </html>
