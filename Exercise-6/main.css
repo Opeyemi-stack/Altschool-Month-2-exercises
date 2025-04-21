@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "gilory-regular";
+  src: url("./assets/fonts/Gilroy-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gilory-medium";
+  src: url("assets/fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gilory-semiBold";
+  src: url("assets/fonts/Gilroy-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: "gilory-regular", sans-serif;
+}
+
+.header {
+  margin: 12px 9.0681rem;
+  /* padding: 0; */
+  gap: 8.75rem;
+  justify-content: center;
+}
+
+.header,
+.nav,
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  gap: 8.75rem;
+}
+
+.nav__list {
+  list-style: none;
+  gap: 2.5rem;
+}
+
+.nav__primary {
+  font-size: 1.125rem;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #141414;
+  font-family: "gilory-medium", sans-serif;
+}
+
+.nav__link--cta {
+  color: #0065fe;
+}
+
+.features__icon-wrapper {
+  margin-left: 10px;
+}
+
+.nav__secondary {
+  font-family: "giloy-semiBold", sans-serif;
+  font-size: 1rem;
+}
+.btn--primary {
+  color: #fff;
+  background-color: #0065fe;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6.25rem;
+}
